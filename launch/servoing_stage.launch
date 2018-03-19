@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- RUN STAGE WITH A TURTLEBOT IN AN EMPTY WORLD -->
+  <include file="$(find fontys_minor_ar_ros_a2)/launch/includes/turtlebot_stage.launch.xml" />
+
+  <!-- Uncomment the line below and change <your_servoing_node> -->
+  <!-- <node pkg="fontys_minor_ar_ros_a2" name="<your_servoing_node>" type="<your_servoing_node>.py"/> -->
+
+  <!-- Run RVIZ -->
+  <include file="$(find fontys_minor_ar_ros_a2)/launch/rviz.launch" />
+
+</launch>

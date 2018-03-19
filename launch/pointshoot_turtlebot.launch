@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- Uncomment the line below if you launching from turtlebot -->
+  <!-- <include file="$(find turtlebot_bringup)/launch/minimal.launch" /> -->
+
+  <!-- Uncomment the line below and change <your_pointshoot_node> -->
+  <!-- <node pkg="fontys_minor_ar_ros_a2" name="<your_pointshoot_node>" type="<your_pointshoot_node>.py"/> -->
+
+  <!-- Run RVIZ (Comment line below if running from robot and launch rviz.launch from your laptop)-->
+  <include file="$(find fontys_minor_ar_ros_a2)/launch/rviz.launch" />
+
+</launch>

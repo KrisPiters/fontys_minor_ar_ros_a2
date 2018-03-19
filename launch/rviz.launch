@@ -1,0 +1,5 @@
+<launch>
+  <!-- Run Rviz with predefined config -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find fontys_minor_ar_ros_a2)/rviz/a2.rviz"/>
+
+</launch>
