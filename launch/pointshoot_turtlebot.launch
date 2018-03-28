@@ -4,7 +4,7 @@
   <!-- <include file="$(find turtlebot_bringup)/launch/minimal.launch" /> -->
 
   <!-- Uncomment the line below and change <your_pointshoot_node> -->
-  <!-- <node pkg="fontys_minor_ar_ros_a2" name="<your_pointshoot_node>" type="<your_pointshoot_node>.py"/> -->
+  <!-- <node pkg="fontys_minor_ar_ros_a2" name="<your_pointshoot_node>" type="<your_pointshoot_node>.py" output="screen"/> -->
 
   <!-- Run RVIZ (Comment line below if running from robot and launch rviz.launch from your laptop)-->
   <include file="$(find fontys_minor_ar_ros_a2)/launch/rviz.launch" />
