@@ -4,7 +4,7 @@
   <!-- <include file="$(find turtlebot_bringup)/launch/minimal.launch" /> -->
 
   <!-- Uncomment the line below and change <your_servoing_node> -->
-  <!-- <node pkg="fontys_minor_ar_ros_a2" name="<your_servoing_node>" type="<your_servoing_node>.py"/> -->
+  <!-- <node pkg="fontys_minor_ar_ros_a2" name="<your_servoing_node>" type="<your_servoing_node>.py" output="screen"/> -->
 
   <!-- Run RVIZ (Comment line below if running from robot)-->
   <include file="$(find fontys_minor_ar_ros_a2)/launch/rviz.launch" />
